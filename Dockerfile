@@ -13,7 +13,7 @@ RUN mvn clean package
 
 
 # Run Application
-FROM eclipse-temurin-17
+FROM eclipse-temurin:17-jre
 
 WORKDIR /app
 
