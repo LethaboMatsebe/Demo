@@ -26,6 +26,13 @@ public class ViewController {
     private static final Logger logger = LogManager.getLogger(ViewController.class);
 
 
+
+    // Root URL redirects to /register
+    @GetMapping("/")
+    public String redirectToRegister() {
+        return "redirect:/register";
+    }
+
     @GetMapping("/register")
     public String showRegistrationForm(Model model) {
         model.addAttribute("RegisterRequest", new RegisterRequest());
