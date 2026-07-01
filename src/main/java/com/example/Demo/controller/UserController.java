@@ -47,7 +47,7 @@ public class UserController {
 //            return "redirect:/register";
 
             // 5. Redirect to the login page (Browser starts a new GET request)
-             return "redirect:http://localhost:8081/api/login";
+             return "redirect:https://login-9xpv.onrender.com";
 //            return "redirect:http://localhost:8081/api/login?success=Registration successful! Please log in.";
 
 
